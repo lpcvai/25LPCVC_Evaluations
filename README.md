@@ -24,3 +24,6 @@ $$\text{mIoU} = \frac{1}{N} \sum_{i=1}^{N} \text{IoU}_i$$
 
 $$F = \frac{2 \cdot P \cdot R}{P + R}$$
 
+## Latency:
+- For all three tracks, latency (execution time) will be measured using AI Hub’s profile jobs. The script **run_profile.py** provides an example of how to run profile jobs.
+
